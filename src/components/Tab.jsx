@@ -23,7 +23,7 @@ function Tab() {
     );
   }
   if (isError) {
-    content = <p>Error:</p>;
+    content = <p>Error Getting a Text:</p>;
   }
   if (isLoading || isFetching) {
     content = (

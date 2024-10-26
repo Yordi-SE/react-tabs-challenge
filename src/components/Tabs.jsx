@@ -31,7 +31,7 @@ const Tabs = () => {
   // ];
 
   return (
-    <div className="w-3/4 m-auto flex flex-col">
+    <div className="md:w-3/4 m-auto flex flex-col">
       <div className="flex items-stretch h-[50px]">
         <TabButton name={"1"} />
         <TabButton name={"2"} />

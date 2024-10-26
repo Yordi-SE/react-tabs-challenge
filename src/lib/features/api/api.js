@@ -11,6 +11,7 @@ export const apiSlice = createApi({
         url: `api/1/short/plaintext`,
         responseHandler: (response) => response.text(),
       }),
+      keepUnusedDataFor: 120,
       transformResponse: (response) => {
         // console.log("response", response);
         return response;
